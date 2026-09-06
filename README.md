@@ -73,6 +73,6 @@ The public LangSmith dataset, its 40 examples, both selected experiment records,
 
 The final broad-assessment case **V2-PORT-001** still took **64.796 seconds and 44 model calls**, with **$0.009490 estimated cost** (about one-third of the suite total), despite passing the narrow quality checks. Follow-up work should reduce that burden, add citation/argument-level evaluation, and test an unseen holdout. These are future plans, not completed improvements.
 
-The project owner confirms completing human review of the golden set. The fraction of LLM-generated questions remains unconfirmed. The 21 retained human failure-category labels are a separate calibration artifact; the `human_review` field in the golden CSV describes expected runtime review, not dataset-author approval.
+The project owner reviewed the complete golden set. The proportion of LLM-generated questions is unknown. The 21 human failure-category labels are maintained as a separate calibration artifact. In the golden CSV, `human_review` describes the expected runtime review, not review or approval of the dataset itself.
 
 This package is prepared locally. GitHub publication, report access verification, Loom recording, and submission-form completion are separate remaining actions.

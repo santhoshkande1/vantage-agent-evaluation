@@ -2,8 +2,6 @@
 
 Evaluation of Vantage, an Enterprise Improvement Intelligence Agent for the fictional Northstar Assurance Group. Vantage investigates and recommends; humans decide and implement. All enterprise data is synthetic.
 
-This is a **documentation-and-evidence submission**, not an application distribution. No source code, credentials, installation, or notebook is needed to review it. The handout requests an executed notebook *where applicable*; this project evaluates the existing Vantage agent through LangSmith instead.
-
 ## Start here
 
 | Artifact | What to review |
@@ -76,9 +74,5 @@ The public LangSmith dataset, its 40 examples, both selected experiment records,
 The final broad-assessment case **V2-PORT-001** still took **64.796 seconds and 44 model calls**, with **$0.009490 estimated cost** (about one-third of the suite total), despite passing the narrow quality checks. Follow-up work should reduce that burden, add citation/argument-level evaluation, and test an unseen holdout. These are future plans, not completed improvements.
 
 The project owner confirms completing human review of the golden set. The fraction of LLM-generated questions remains unconfirmed. The 21 retained human failure-category labels are a separate calibration artifact; the `human_review` field in the golden CSV describes expected runtime review, not dataset-author approval.
-
-## Reference
-
-Assignment: [Week 4 Project Handout](https://docs.google.com/document/d/1D_7O0EROM8CncxtXDDaLHyU9vCbKC6DuqiRbuRXje1Y/edit). Presentation reference: [Customer Support Agent Evaluation](https://github.com/The-Gen-Academy/4A-Customer-Support-Agent-Evaluation). All results here belong to Vantage, not the reference project.
 
 This package is prepared locally. GitHub publication, report access verification, Loom recording, and submission-form completion are separate remaining actions.

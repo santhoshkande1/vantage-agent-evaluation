@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Fresh final LangSmith trace tree for V2-PROC-010</title>
+  <desc id="desc">Verified LangSmith evidence snapshot for the fresh final V2-PROC-010 trace, showing the decision and evidence child runs and measured trace metrics.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#1e4f6f"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#f6f8fb"/>
+  <rect x="0" y="0" width="1600" height="112" fill="url(#header)"/>
+  <text x="72" y="48" fill="#d9f2ff" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="1.2">VERIFIED LANGSMITH EVIDENCE SNAPSHOT</text>
+  <text x="72" y="82" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20">Fresh final run · child-run evidence path · not a screenshot</text>
+  <rect x="1252" y="32" width="276" height="48" rx="24" fill="#d7f4e7"/>
+  <text x="1390" y="63" text-anchor="middle" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">PASS · no errors</text>
+
+  <text x="72" y="175" fill="#12263a" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Trace tree: V2-PROC-010</text>
+  <text x="72" y="218" fill="#3d5266" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">“Can you show the clause behind that?”</text>
+  <text x="72" y="258" fill="#54687a" font-family="Arial, Helvetica, sans-serif" font-size="19">Fresh-final trace ID: 01a0781e-e56f-7691-b237-0acfcdc3e620</text>
+
+  <g filter="url(#shadow)">
+    <rect x="505" y="300" width="590" height="115" rx="20" fill="#103b58"/>
+  </g>
+  <text x="800" y="346" text-anchor="middle" fill="#d9f2ff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">ROOT RUN</text>
+  <text x="800" y="382" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Vantage conversation</text>
+
+  <path d="M 800 415 V 462 H 230 V 502" fill="none" stroke="#8db7cf" stroke-width="5"/>
+  <path d="M 800 415 V 462 H 610 V 502" fill="none" stroke="#8db7cf" stroke-width="5"/>
+  <path d="M 800 415 V 462 H 990 V 502" fill="none" stroke="#8db7cf" stroke-width="5"/>
+  <path d="M 800 415 V 462 H 1370 V 502" fill="none" stroke="#8db7cf" stroke-width="5"/>
+  <circle cx="800" cy="462" r="9" fill="#247aa5"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="502" width="316" height="210" rx="18" fill="#ffffff" stroke="#c9ddea" stroke-width="2"/>
+    <rect x="72" y="502" width="316" height="48" rx="18" fill="#d8eef9"/>
+    <rect x="72" y="532" width="316" height="18" fill="#d8eef9"/>
+  </g>
+  <text x="230" y="533" text-anchor="middle" fill="#135d81" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CHILD RUN 1</text>
+  <text x="103" y="590" fill="#173b56" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Fireworks decision</text>
+  <text x="103" y="625" fill="#506779" font-family="Arial, Helvetica, sans-serif" font-size="18">next-agent proposal</text>
+  <text x="103" y="663" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Allowed evidence plan</text>
+
+  <g filter="url(#shadow)">
+    <rect x="452" y="502" width="316" height="210" rx="18" fill="#ffffff" stroke="#b9e3d0" stroke-width="2"/>
+    <rect x="452" y="502" width="316" height="48" rx="18" fill="#d7f4e7"/>
+    <rect x="452" y="532" width="316" height="18" fill="#d7f4e7"/>
+  </g>
+  <text x="610" y="533" text-anchor="middle" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CHILD RUN 2</text>
+  <text x="483" y="590" fill="#173b56" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Contract details</text>
+  <text x="483" y="625" fill="#506779" font-family="Arial, Helvetica, sans-serif" font-size="18">MCP: get_contract_details</text>
+  <text x="483" y="663" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Structured contract evidence</text>
+
+  <g filter="url(#shadow)">
+    <rect x="832" y="502" width="316" height="210" rx="18" fill="#ffffff" stroke="#b9e3d0" stroke-width="2"/>
+    <rect x="832" y="502" width="316" height="48" rx="18" fill="#d7f4e7"/>
+    <rect x="832" y="532" width="316" height="18" fill="#d7f4e7"/>
+  </g>
+  <text x="990" y="533" text-anchor="middle" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CHILD RUN 3</text>
+  <text x="863" y="590" fill="#173b56" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Document search</text>
+  <text x="863" y="625" fill="#506779" font-family="Arial, Helvetica, sans-serif" font-size="18">MCP: search_enterprise_documents</text>
+  <text x="863" y="663" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Clause-supporting evidence</text>
+
+  <g filter="url(#shadow)">
+    <rect x="1212" y="502" width="316" height="210" rx="18" fill="#ffffff" stroke="#ded1f5" stroke-width="2"/>
+    <rect x="1212" y="502" width="316" height="48" rx="18" fill="#ede8fb"/>
+    <rect x="1212" y="532" width="316" height="18" fill="#ede8fb"/>
+  </g>
+  <text x="1370" y="533" text-anchor="middle" fill="#5a3c9a" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CHILD RUN 4</text>
+  <text x="1243" y="590" fill="#173b56" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Respond</text>
+  <text x="1243" y="625" fill="#506779" font-family="Arial, Helvetica, sans-serif" font-size="18">grounded response synthesis</text>
+  <text x="1243" y="663" fill="#5a3c9a" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Evidence-backed answer</text>
+
+  <text x="72" y="780" fill="#12263a" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">Measured root-run evidence</text>
+  <g>
+    <rect x="72" y="813" width="246" height="112" rx="18" fill="#eaf7f1" stroke="#b9e3d0" stroke-width="2"/>
+    <text x="101" y="850" fill="#255940" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">EVALUATION</text>
+    <text x="101" y="896" fill="#0a5f47" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">PASS</text>
+  </g>
+  <g>
+    <rect x="342" y="813" width="246" height="112" rx="18" fill="#eef5fb" stroke="#c9ddea" stroke-width="2"/>
+    <text x="371" y="850" fill="#315f7e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">LATENCY</text>
+    <text x="371" y="896" fill="#164a70" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">11.66s</text>
+  </g>
+  <g>
+    <rect x="612" y="813" width="246" height="112" rx="18" fill="#eef5fb" stroke="#c9ddea" stroke-width="2"/>
+    <text x="641" y="850" fill="#315f7e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">INPUT TOKENS</text>
+    <text x="641" y="896" fill="#164a70" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">7,524</text>
+  </g>
+  <g>
+    <rect x="882" y="813" width="246" height="112" rx="18" fill="#eef5fb" stroke="#c9ddea" stroke-width="2"/>
+    <text x="911" y="850" fill="#315f7e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">OUTPUT TOKENS</text>
+    <text x="911" y="896" fill="#164a70" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">1,262</text>
+  </g>
+  <g>
+    <rect x="1152" y="813" width="376" height="112" rx="18" fill="#fff7e6" stroke="#f2d28b" stroke-width="2"/>
+    <text x="1181" y="850" fill="#865f13" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">ESTIMATED LLM COST</text>
+    <text x="1181" y="896" fill="#795208" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">$0.001401</text>
+  </g>
+  <text x="72" y="967" fill="#60778a" font-family="Arial, Helvetica, sans-serif" font-size="17">Estimate uses published standard pricing; this trace contains synthetic Northstar data only. Trace shows the evidence path, not an autonomous business action.</text>
+</svg>

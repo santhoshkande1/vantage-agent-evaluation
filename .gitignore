@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+.venv/
+*.egg-info/
+.env
+.streamlit/secrets.toml
+
+# Generated local digital-twin/runtime state. The synthetic data generator and
+# source documents are versioned; databases, reports, and caches are not.
+data/*.db
+data/*_report.json
+data/reports/
+data/resume_requests.json
+data/local_memory.json
+data/local_documents.json
+.vantage/
+runtime/
+
+# Local evaluation workbook exports, inspection scripts, and package installs.
+# These are working artifacts, not reproducible source or submission evidence.
+tmp/

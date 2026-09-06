@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Baseline to fresh final comparison for V2-DEP-FIN-001</title>
+  <desc id="desc">Verified LangSmith evidence snapshot showing the unsupported baseline response, grounded fresh final response, and dataset-level before and after metrics.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#1e4f6f"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#f6f8fb"/>
+  <rect x="0" y="0" width="1600" height="112" fill="url(#header)"/>
+  <text x="72" y="48" fill="#d9f2ff" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="1.2">VERIFIED LANGSMITH EVIDENCE SNAPSHOT</text>
+  <text x="72" y="82" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20">Frozen V2 dataset · baseline compared with a fresh final run · not a screenshot</text>
+  <rect x="1238" y="32" width="290" height="48" rx="24" fill="#d7f4e7"/>
+  <text x="1383" y="63" text-anchor="middle" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">40-case comparison</text>
+
+  <text x="72" y="175" fill="#12263a" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Baseline → fresh final</text>
+  <text x="72" y="218" fill="#3d5266" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">V2-DEP-FIN-001 · Finance 2025 technology spend</text>
+  <text x="72" y="258" fill="#54687a" font-family="Arial, Helvetica, sans-serif" font-size="22">Question: “what did Finance actually spend on tech in 2025”</text>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="305" width="626" height="270" rx="20" fill="#ffffff"/>
+    <rect x="72" y="305" width="626" height="64" rx="20" fill="#b42318"/>
+    <rect x="72" y="349" width="626" height="20" fill="#b42318"/>
+  </g>
+  <text x="110" y="347" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">BASELINE RESPONSE</text>
+  <rect x="110" y="401" width="164" height="38" rx="19" fill="#fde8e7"/>
+  <text x="192" y="427" text-anchor="middle" fill="#9b1c1c" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">UNSUPPORTED</text>
+  <text x="110" y="484" fill="#273849" font-family="Arial, Helvetica, sans-serif" font-size="25">“I do not have a supported evidence path</text>
+  <text x="110" y="519" fill="#273849" font-family="Arial, Helvetica, sans-serif" font-size="25">for that question, so I cannot draw a conclusion.”</text>
+  <text x="110" y="553" fill="#8a3e38" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">Outcome: declined a supported Finance-summary question</text>
+
+  <path d="M 735 438 H 858" stroke="#247aa5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 846 415 L 882 438 L 846 461" fill="none" stroke="#247aa5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="718" y="374" width="180" height="38" rx="19" fill="#d8eef9"/>
+  <text x="808" y="399" text-anchor="middle" fill="#135d81" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">CONTEXT RECOVERY</text>
+
+  <g filter="url(#shadow)">
+    <rect x="902" y="305" width="626" height="270" rx="20" fill="#ffffff"/>
+    <rect x="902" y="305" width="626" height="64" rx="20" fill="#087f5b"/>
+    <rect x="902" y="349" width="626" height="20" fill="#087f5b"/>
+  </g>
+  <text x="940" y="347" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">FRESH FINAL RESPONSE</text>
+  <rect x="940" y="401" width="88" height="38" rx="19" fill="#d7f4e7"/>
+  <text x="984" y="427" text-anchor="middle" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">PASS</text>
+  <text x="940" y="484" fill="#273849" font-family="Arial, Helvetica, sans-serif" font-size="25">“2025 Technology spend was Finance: $588,000.”</text>
+  <text x="940" y="527" fill="#075a46" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Grounded Finance-summary answer · aggregate data</text>
+  <text x="940" y="557" fill="#526879" font-family="Arial, Helvetica, sans-serif" font-size="18">Fresh execution; no prior outputs, feedback, or traces reused</text>
+
+  <text x="72" y="649" fill="#12263a" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">Dataset-level result (40 frozen V2 cases)</text>
+
+  <g>
+    <rect x="72" y="684" width="350" height="146" rx="18" fill="#eaf7f1" stroke="#b9e3d0" stroke-width="2"/>
+    <text x="104" y="723" fill="#255940" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">CORRECT HANDLING</text>
+    <text x="104" y="786" fill="#0a5f47" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">53% → 100%</text>
+    <text x="104" y="815" fill="#42725c" font-family="Arial, Helvetica, sans-serif" font-size="18">+47 percentage points</text>
+  </g>
+  <g>
+    <rect x="450" y="684" width="350" height="146" rx="18" fill="#eaf7f1" stroke="#b9e3d0" stroke-width="2"/>
+    <text x="482" y="723" fill="#255940" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">REQUIRED FACTS</text>
+    <text x="482" y="786" fill="#0a5f47" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">48% → 100%</text>
+    <text x="482" y="815" fill="#42725c" font-family="Arial, Helvetica, sans-serif" font-size="18">+52 percentage points</text>
+  </g>
+  <g>
+    <rect x="828" y="684" width="350" height="146" rx="18" fill="#eaf7f1" stroke="#b9e3d0" stroke-width="2"/>
+    <text x="860" y="723" fill="#255940" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">REQUIRED EVIDENCE</text>
+    <text x="860" y="786" fill="#0a5f47" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">51% → 100%</text>
+    <text x="860" y="815" fill="#42725c" font-family="Arial, Helvetica, sans-serif" font-size="18">+49 percentage points</text>
+  </g>
+  <g>
+    <rect x="1206" y="684" width="322" height="146" rx="18" fill="#eef5fb" stroke="#c9ddea" stroke-width="2"/>
+    <text x="1238" y="723" fill="#315f7e" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">MEAN LATENCY</text>
+    <text x="1238" y="786" fill="#164a70" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">5.69s → 5.67s</text>
+    <text x="1238" y="815" fill="#52728a" font-family="Arial, Helvetica, sans-serif" font-size="18">−0.02s · not a speed claim</text>
+  </g>
+
+  <rect x="72" y="864" width="1456" height="80" rx="16" fill="#ffffff" stroke="#d5e0e9" stroke-width="2"/>
+  <text x="108" y="899" fill="#22394c" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Cost disclosure:</text>
+  <text x="276" y="899" fill="#4a6073" font-family="Arial, Helvetica, sans-serif" font-size="20">baseline = Not recorded · fresh final = 38 estimated-standard-pricing / 2 not applicable</text>
+  <text x="108" y="928" fill="#60778a" font-family="Arial, Helvetica, sans-serif" font-size="17">The metrics are cumulative before/after results. This panel does not claim an isolated causal effect from one change.</text>
+</svg>
